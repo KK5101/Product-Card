@@ -1,0 +1,25 @@
+import React from "react";
+import ProductCard from "./components/ProductCard";
+
+const App = () => {
+  return (
+    <div
+      style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
+    >
+      <ProductCard
+        image="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png"
+        title="Nike Air Pegasus"
+        subtitle="Your workhorse with wing returns."
+        price="180"
+      />
+      <ProductCard
+        image="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/custom-nike-dunk-high-by-you-shoes.png"
+        title="Nike ZoomX"
+        subtitle="The Nike ZoomX Vaporfly next% clears."
+        price="320"
+      />
+    </div>
+  );
+};
+
+export default App;
